@@ -27,6 +27,7 @@ jekyll and rsync changed data to the document root.
 
 The webhook endpoint (Dancer.pm code):
 {% highlight perl %}
+
     package ReceiveHook;
     use Dancer ':syntax';
     
@@ -71,11 +72,13 @@ The webhook endpoint (Dancer.pm code):
     };
     
     true;
+    
 {% endhighlight %}
 
 The update itself is done by this little shellscript:
 
 {% highlight sh %}
+
     #!/bin/sh
 
     REPPATH="/home/user/git/localgitrepository"
@@ -88,6 +91,7 @@ The update itself is done by this little shellscript:
         jekyll --url "${LIVEURL}"
         rsync -rXogpEAt _site/ "${DEPLOYTARGET}"
     fi
+    
 {% endhighlight %}
 
 To be continued...
