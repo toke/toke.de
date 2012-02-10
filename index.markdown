@@ -3,8 +3,7 @@ layout: default
 title: Thomas 'Toke' Kerpe
 ---
 
-about me
-========
+## about me
 
 Online ego of an coder, original throws shadow when light is on.  
 
@@ -12,14 +11,12 @@ I'm a software developer currently located in Karlsruhe (Germany). Most of my wo
 
 I love [Python](http://www.python.org), [Perl](http://www.perl.org), [CouchDB](http://couchdb.apache.org), [Android](http://www.android.com) and other cool technologies… and of course Coffee!
 
-articles
-========
+## articles
 
  * [Grundlagen: was passiert beim "surfen"?](http://toke.de/artikel/grundlagen/was-passiert-beim-surfen/) (german)
  * [Kernel unter Debian kompilieren](http://toke.de/artikel/linux/debian-kernel-bauen/) (german, -2008)
 
-good reads
-==========
+## good reads
 
 Starting to collect recent good reads:
 
@@ -28,8 +25,7 @@ Starting to collect recent good reads:
  * Goedel Escher Bach - [Douglas Hofstadter](http://www.cogs.indiana.edu/people/homepages/hofstadter.html)
 
 
-contact
-=======
+## contact
 
  * E-Mail: [web@toke.de](mailto:web@toke.de)
  * PGP-Key: [B9D0ADB8](B9D0ADB8.asc)
