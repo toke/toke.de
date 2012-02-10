@@ -2,6 +2,13 @@
 layout: post
 title: How do I Post
 category: blog 
+tags:
+- perl
+- deploy
+- git
+- github
+- jekyll
+- rest
 ---
 
 # Or how this site is updated
@@ -18,7 +25,7 @@ Github has a nice feature called "Service hooks" - especially a
 do a "git pull" on a local repository, then rebuild the site with
 jekyll and rsync changed data to the document root.
 
-The webhook endpoint:
+The webhook endpoint (Dancer.pm code):
 {% highlight perl %}
 package ReceiveHook;
 use Dancer ':syntax';
