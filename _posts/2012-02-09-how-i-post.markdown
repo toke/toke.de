@@ -11,7 +11,7 @@ tags:
 - rest
 ---
 
-# Or how this site is updated
+## Or how this site is updated
 
 This site is build via [jekyll](https://github.com/mojombo/jekyll)
 and the sources are coming from a git repository on
