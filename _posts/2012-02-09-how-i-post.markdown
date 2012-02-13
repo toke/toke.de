@@ -99,19 +99,22 @@ The update itself is done by this little shellscript:
 {% endhighlight %}
 
 <aside>
-## More
-
+<h2>More</h2>
+<p>
 That is just the surface what really is possible. I also use this method in
 different other setups. Just to mention differnet usecases:
-
-* Keep repositories synchronized
-* Automatic Builds
-* Automatic deployments
-* Test framework
-* Configuration management
-* Even a small distributed site or WiKi is possible
-
-With a simple git post-commit-hook such a http Post with curl it is github independent.
+</p>
+<ul>
+<li>Keep repositories synchronized</li>
+<li>Automatic Builds</li>
+<li>Automatic deployments</li>
+<li>Test framework</li>
+<li>Configuration management</li>
+<li>Even a small distributed site or WiKi is possible</li>
+</ul>
+<p>
+With a simple git post-commit-hook such a http Post with curl it is
+github independent.</p>
 </aside>
 
 To be continued...
