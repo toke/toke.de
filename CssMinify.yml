@@ -1,4 +1,4 @@
 files:
-- toke.css
-- syntax.css
+- /assets/toke.css
+- /assets/syntax.css
 css_destination: /assets/
