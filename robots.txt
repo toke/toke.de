@@ -2,6 +2,7 @@ User-agent: 123People
 Disallow: /
 
 User-agent: *
+Disallow: /impressum/
 Allow: /
 
 
