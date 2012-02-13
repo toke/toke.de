@@ -98,6 +98,7 @@ The update itself is done by this little shellscript:
     
 {% endhighlight %}
 
+<aside>
 ## More
 
 That is just the surface what really is possible. I also use this method in
@@ -111,5 +112,6 @@ different other setups. Just to mention differnet usecases:
 * Even a small distributed site or WiKi is possible
 
 With a simple git post-commit-hook such a http Post with curl it is github independent.
+</aside>
 
 To be continued...
