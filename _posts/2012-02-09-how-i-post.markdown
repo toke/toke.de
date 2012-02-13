@@ -1,7 +1,9 @@
 ---
 layout: post
 title: How do I Post
-category: blog 
+category:
+- blog
+- perl
 tags:
 - perl
 - deploy
@@ -9,6 +11,7 @@ tags:
 - github
 - jekyll
 - rest
+styles: syntax.css
 ---
 
 ## Or how this site is updated
