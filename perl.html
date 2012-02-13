@@ -3,7 +3,19 @@ layout: default
 title: Toke's Perl Posts
 ---
 
-<h1>Perl Posts</h1>
+<h1>Perl</h1>
+
+<p>
+    Perl is a programming language developed by Larry Wall.
+    Perl is not only the "duct tape of the internet" but also glue code in many internet companies.
+</p>
+<ul>
+<li><a href="http://www.perl.org">Perl.org</a> Perls official site</li>
+<li><a href="http://www.perlmonks.org">Perlmonks</a></li>
+</ul>
+
+<h2>My Perl Posts</h2>
+
   <ul class="posts">
     {% for post in site.categories.perl %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>{% if post.summary %}{{ post.summary | markdownify }}{% endif %}</li>
