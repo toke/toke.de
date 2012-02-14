@@ -25,8 +25,8 @@ not write something special about git or jekyll here. Just how the
 ## Github webhook
 Github has a nice feature called "Service hooks" - especially a
 "Post-Receive URLs" hook. I use this hook to notify my server to
-do a "git pull" on a local repository, then rebuild the site with
-jekyll and rsync changed data to the document root.
+do a `git pull` on a local repository, then rebuild the site with
+`jekyll` and `rsync` changed data to the document root.
 
 The webhook endpoint (Dancer.pm code):
 {% highlight perl %}
@@ -112,7 +112,7 @@ different other setups. Just to mention differnet usecases:
 <li>Even a small distributed site or WiKi is possible</li>
 </ul>
 <p>
-With a simple git post-commit-hook such a http Post with curl it is
+With a simple git post-commit-hook such a http Post with `curl` it is
 github independent.</p>
 </aside>
 
