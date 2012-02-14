@@ -19,7 +19,7 @@ summary: "Example of how to use github's webhooks."
 This site is build via [jekyll](https://github.com/mojombo/jekyll)
 and the sources are coming from a git repository on
 [github](https://github.com). I do
-not write something special about git or jekyll here. Just how the
+not write something special about `git` or `jekyll` here. Just how the
 "deployment" works.
 
 ## Github webhook
