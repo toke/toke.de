@@ -8,6 +8,8 @@ tags:
 summary: "I am evaluating discus for my blog"
 ---
 
+## Commenting
+
 I'm not a big fan of external services. Especially since I do not log IP-Adresses.
 This site is very simple. But I wan't to add comments to blog posts. My plan was
 to write a little comment script for embedding via Javascript. Since I don't have
