@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Grundlagen was passiert beim "surfen"
 description: "Ein kleiner Überblick für den Interessierten Laien: Adressen im Internet, Domainnamen, IP-Adressen, HTTP"
 lang: de
