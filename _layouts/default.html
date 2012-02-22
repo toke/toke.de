@@ -6,7 +6,7 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Toke's page{% endif %}">
         <meta name="author" content="Thomas Kerpe">
         
-        <link rel="stylesheet" type="text/css" href="{% minified_css_file %}">
+        <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/toke.css">
         {% if page.styles %}
         {% for style in page.styles %}
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/{{ style }}">
