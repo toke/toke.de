@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Evaluating Discus
+title: Evaluating Disqus
 category: blog
 tags:
-- discus
+- disqus
 - comment
-summary: "I am evaluating discus for my blog"
+summary: "I am evaluating disqus for my blog"
 ---
 
 ## Commenting
@@ -15,8 +15,8 @@ and offloading Javascript gives some more problems with privacy.
 This site is very simple. But I want to add comments to blog posts. My plan was
 to write a little comment script for embedding via Javascript. Since I don't have
 so much time right now I will look for alternatives. Now I am experimenting with
-[discus](http://discus.com). The service looks nice and integrates very well with
+[disqus](http://disqus.com). The service looks nice and integrates very well with
 my site. One downside is the missing SSL support. I will look after this later.
 
-For the next weeks the discus service will be available on this site, maybe for
+For the next weeks the disqus service will be available on this site, maybe for
 a longer time. We'll see. Feel free to comment.
