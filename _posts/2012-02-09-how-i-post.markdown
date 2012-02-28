@@ -30,7 +30,7 @@ Github has a nice feature called "Service hooks" - especially a
 do a `git pull` on a local repository, then rebuild the site with
 `jekyll` and `rsync` changed data to the document root.
 
-The webhook endpoint (Dancer.pm code):
+The perl webhook endpoint (Dancer.pm code):
 {% highlight perl %}
 
     package ReceiveHook;
