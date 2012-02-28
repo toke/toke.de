@@ -1,7 +1,9 @@
 ---
 title: "Postgre password in psql"
 layout: post
-category: blog
+categories:
+- blog
+- db
 tags:
 - postgre
 - psql
