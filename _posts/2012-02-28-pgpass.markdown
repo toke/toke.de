@@ -14,7 +14,7 @@ I was asked today how to use store an password for use with `psql`.
 I've done this before several times but could not remember how. So
 I tried to look it up with man psql. There was a referer to .pgpass
 but no syntax. The pgpass is part of libpq. So this is a reminder
-for myself:
+to myself:
 
 
 ## .pgpass format
