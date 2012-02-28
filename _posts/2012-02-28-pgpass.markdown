@@ -21,7 +21,7 @@ for myself:
 
     hostname:port:database:username:password
 
-"Each of the first four fields may be a literal value, or \*, which
+To quote the [Documentation][pgpass]: "Each of the first four fields may be a literal value, or \*, which
 matches anything."
 
-Source: http://www.postgresql.org/docs/8.2/static/libpq-pgpass.html
+[pgpass]: http://www.postgresql.org/docs/8.2/static/libpq-pgpass.html
