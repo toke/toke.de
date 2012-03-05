@@ -34,8 +34,8 @@ The reason we can delete root owned files and (empty) directories
 in our case is because the _write_ of our delete is done in our
 freshly created directory "test" - which is owned - **by us**. You can
 think of an unix directory like an special file which contains the
-directory information of the containing elements. If we can write
-to the containing directory we can delete it. If the directory is
+directory information of the containing elements. **If we can write
+to the containing directory we can delete it.** If the directory is
 not empty it will not work.
 
 ## Conclusion
