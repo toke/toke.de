@@ -5,6 +5,8 @@ title: "Unix permission pitfalls #1"
 tags:
 - unix
 - root
+- permission
+- pitfall
 ---
 
 # Unix permission pitfalls #1
