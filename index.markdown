@@ -11,6 +11,17 @@ I'm a software developer currently located in Karlsruhe (Germany). Most of my wo
 
 I love [Python](http://www.python.org), [Perl](/perl/), [CouchDB](http://couchdb.apache.org), [Android](http://www.android.com) and other cool technologies… and of course Coffee!
 
+## latest blog posts
+  
+  <ul class="posts">
+    {% for post in site.categories.blog limit:4 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    {% if site.categories.blog.size > 4 %}
+      <li><a href="/blog/">more…</a></li>
+    {% endif %}
+  </ul>
+
 ## articles
 
  * [Grundlagen: was passiert beim "surfen"?](http://toke.de/artikel/grundlagen/was-passiert-beim-surfen/) (german)
