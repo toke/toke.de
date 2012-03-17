@@ -21,6 +21,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+a > img {
+    border:0
+}
+
 dd {
     margin-bottom: 20px;
 }
@@ -34,3 +39,4 @@ div#container > footer {
 article > footer {
     font-size: 14px;
 }
+
