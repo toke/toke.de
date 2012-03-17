@@ -38,7 +38,7 @@
         {{ content }}
     </section>
     <footer>
-        Posted at <time pubdate="{{ site.time| date: "%Y-%m-%d" }}">{{ site.time | date_to_long_string }}</time>
+        Posted at <time datetime="{{ site.time| date: "%Y-%m-%d" }}" pubdate="pubdate">{{ site.time | date_to_long_string }}</time>
         by <span class="author">toke</span>
     {% if page.license %}
         &middot; <span class="license">
