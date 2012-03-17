@@ -15,7 +15,7 @@ I love [Python](http://www.python.org), [Perl](/perl/), [CouchDB](http://couchdb
   
   <ul class="posts">
     {% for post in site.categories.blog limit:4 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     {% if site.categories.blog.size > 4 %}
       <li><a href="/blog/">more…</a></li>
