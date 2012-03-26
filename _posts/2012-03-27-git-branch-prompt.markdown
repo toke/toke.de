@@ -2,11 +2,7 @@
 layout: post
 title: Git Branch in bash prompt
 category: blog
-tags:
-- git
-- bash
-- unix
-- tipps
+tags: [git, bash, unix, linux, tipps]
 ---
 
 # Git-Tipp
