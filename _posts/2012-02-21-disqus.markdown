@@ -2,9 +2,7 @@
 layout: post
 title: Evaluating Disqus
 category: blog
-tags:
-- disqus
-- comment
+tags: [disqus, comment]
 summary: "I am evaluating disqus for my blog"
 ---
 
