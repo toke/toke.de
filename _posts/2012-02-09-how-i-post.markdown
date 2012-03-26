@@ -1,18 +1,9 @@
 ---
 layout: post
 title: How do I Post
-categories:
-- blog
-- perl
-tags:
-- perl
-- deploy
-- git
-- github
-- jekyll
-- rest
-styles:
-- syntax.css
+categories: [blog, perl]
+tags: [perl, deploy, git, github, jekyll, rest]
+styles: [syntax.css]
 summary: "Example of how to use github's webhooks."
 ---
 
