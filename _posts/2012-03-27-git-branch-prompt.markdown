@@ -12,8 +12,8 @@ tags:
 # Git-Tipp
 
 My Bash prompt is something like this `archimedes:toke.de(master) toke$`.
-Where `archimedes` is the hostname, `toke.de` the git workspace, `master`
-the actual branch and `toke` my username.
+Where `archimedes` is the hostname, `toke.de` the directory within
+an git checkout, `master` the actual branch and `toke` my username.
 To get this result set this `PS1` in your `.bashrc`:
 
     ## Add Git-Branch
