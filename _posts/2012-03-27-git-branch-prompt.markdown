@@ -6,6 +6,7 @@ tags:
 - bash
 - unix
 - tipps
+layout: posts
 ---
 
 # Git-Tipp
