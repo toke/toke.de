@@ -110,4 +110,4 @@ github independent.</p>
 </aside>
 
 ## Code
-Guthub repository: https://github.com/toke/dancing-github-webhooks feel free to use it as you like.
+[Github repository](https://github.com/toke/dancing-github-webhooks) feel free to use it as you like.
