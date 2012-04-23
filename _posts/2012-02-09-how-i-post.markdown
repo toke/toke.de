@@ -16,6 +16,9 @@ not write something special about `git` or `jekyll` here. Just how the
 "deployment" works.
 
 ## Github webhook
+
+![Github Webhook](/assets/github-webhook.png)
+
 Github has a nice feature called "Service hooks" - especially a
 "Post-Receive URLs" hook. I use this hook to notify my server to
 do a `git pull` on a local repository, then rebuild the site with
