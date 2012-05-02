@@ -12,8 +12,8 @@ Anbieterkennzeichnung nach § 6 TDG
 ==================================
 
 Thomas Kerpe  
-Schützenstraße 82  
-76137 Karlsruhe  
+Buntestraße 5  
+76131 Karlsruhe  
 E-Mail: [web@toke.de](mailto:web@toke.de)  
 
 
