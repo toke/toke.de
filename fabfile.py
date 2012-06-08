@@ -27,3 +27,9 @@ def publish():
     else:
         gitpush()
     
+def deploy():
+    with settings(warn_only=True):
+        if run("test -d %s" % env.target).failed:
+            run("git clone %s %s" % (env.repo, env.target))
+    with cd(env.target):
+        run("git pull")
