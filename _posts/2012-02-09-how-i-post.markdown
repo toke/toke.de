@@ -29,36 +29,29 @@ The perl webhook endpoint (Dancer.pm code):
 
     package ReceiveHook;
     use Dancer ':syntax';
-    
     our $VERSION = '0.3';
-    
     # Configuration for different projects
     my $config = {
         "PROJECTNAME" => {
             run => "/home/user/bin/updateblog.sh",
         },
     };
-    
     prefix '/notify';
-    
     get '/*' => sub {
         header 'Allow' => 'POST';
         status '405';
         "Not for you\n";
     };
-    
     post '/:project' => sub {
         if (not defined $config->{params->{project}}) {
             status 'not_found';
             return "No such project: ".params->{project}."\n";
         }
-    
         my $payload = params->{'payload'};
         if (not defined $payload) {
             status '415';
             return "I need a payload\n";
         }
-    
         # Read the configuration for that repo
         my $repo_config = $config->{$repo->{name}};
         if (defined $repo_config && defined $repo_config->{run}) {
@@ -66,12 +59,10 @@ The perl webhook endpoint (Dancer.pm code):
                 system $repo_config->{run};
             };
         }
-    
         return "OK";
     };
-    
     true;
-    
+
 {% endhighlight %}
 
 The update itself is done by this little shellscript:
