@@ -11,7 +11,7 @@ I'm a software developer currently located in Karlsruhe (Germany).
 Most of my work is web and large dataset related. I'm a data geek. 
 
 I love [Python](http://www.python.org), [Perl](/perl/),
-[CouchDB](http://couchdb.apache.org), Android](http://www.android.com)
+[CouchDB](http://couchdb.apache.org), [Android](http://www.android.com)
 and other cool technologies… and of course Coffee!
 
 ## latest blog posts
