@@ -13,9 +13,11 @@ directory. Since these where quite large and are messing up the
 history I wanted to remove them. I did it this way:
 
      git filter-branch -f --index-filter \
-         'git rm --cached --ignore-unmatch */target/*' --prune-empty -- --all
+         'git rm --cached --ignore-unmatch */target/*' \
+         --prune-empty -- --all
      git filter-branch -f --index-filter \
-         'git rm --cached --ignore-unmatch .metadata' --prune-empty -- --all
+         'git rm --cached --ignore-unmatch .metadata' \ 
+         --prune-empty -- --all
      rm -rf .git/refs/original/
      git reflog expire --expire=now --all
      git gc --prune=now
