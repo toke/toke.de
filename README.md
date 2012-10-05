@@ -11,4 +11,8 @@ Currently running only on http://toke.de
 
 ## Deployment
 
-https://toke.de/blog/2012/02/09/how-i-post/
+Using an VCS as an deployment tool is not a good practise. I'm using Github
+trigger to call an webservice in order to trigger the deployment. I'm using
+Dancer perl script to trigger this deployment on pushing to my master branch
+on github. You can read more about this on my [Blogpost](https://toke.de/blog/2012/02/09/how-i-post/).
+
