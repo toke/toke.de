@@ -39,9 +39,9 @@ Starting to collect recent good reads:
  * Fermats letzter Satz ([Fermat's last theorem](http://www.simonsingh.net/books/fermats-last-theorem/the-book/) - [Simon Singh](http://www.simonsingh.net/))
  * Goedel Escher Bach - [Douglas Hofstadter](http://www.cogs.indiana.edu/people/homepages/hofstadter.html)
 
-
 ## contact
 
  * E-Mail: [web@toke.de](mailto:web@toke.de)
  * PGP-Key: [B9D0ADB8](B9D0ADB8.asc)
  * [XING-Profile](https://www.xing.com/profile/Thomas_Kerpe)
+ * [GitHub-Profile](https://github.com/toke)
