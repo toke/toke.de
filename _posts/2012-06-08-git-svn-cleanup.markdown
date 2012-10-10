@@ -9,8 +9,9 @@ tags: [git, svn, scm, tipp]
 
 I was importing svn repositories into git. Once in the past
 there was a accidential commit of compiled files and a caching
-directory. Since these where quite large and are messing up the
-history I wanted to remove them. I did it this way:
+directory (target and .metadata). Since these where quite
+large and are messing up the history I wanted to remove them.
+I did it this way:
 
      git filter-branch -f --index-filter \
          'git rm --cached --ignore-unmatch */target/*' \
