@@ -13,7 +13,7 @@ Be shure to get familar with the difference between || and // in perl code.
 
 What's wrong with this? Possibly nothing, maybe everything.
 
-Let's assume something different.
+Let's assume something different:
 
     sub my_sub {
         my $value = shift || 1;
