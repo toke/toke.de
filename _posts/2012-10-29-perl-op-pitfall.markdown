@@ -7,7 +7,7 @@ tags: [perl, operator, tipp]
 
 # Perl operator pitfalls
 
-Be shure to get familar with the difference between || and // in perl code.
+Be sure to get familar with the difference between || and // in perl code.
 
 {% highlight perl %}
 
