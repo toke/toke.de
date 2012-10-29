@@ -13,7 +13,7 @@ Be shure to get familar with the difference between || and // in perl code.
 
     my $value = do_something() || 1;
 
-{% highlight %}
+{% endhighlight %}
 
 What's wrong with this? Possibly nothing, maybe everything.
 
@@ -30,7 +30,7 @@ Let's assume something different:
     print my_sub(0);
     print my_sub(1);
 
-{% highlight %}
+{% endhighlight %}
 
 So let's guess what is the output of this?
 
@@ -44,7 +44,7 @@ possibly wanted:
          return $value + 1;
     }
 
-{% highlight %}
+{% endhighlight %}
 
 The reason for this behaviour is that perl evaluates only three things as 
 false:
