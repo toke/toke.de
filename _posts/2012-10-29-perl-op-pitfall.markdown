@@ -51,8 +51,7 @@ false:
 
 <ul>
 <li><code>0</code></li>
-<li><code>""</code></li>
-<li><code>()</code></li>
+<li>Empty values as <code>"" or ()</code></li>
 <li><code>undef</code></li>
 </ul>
 
