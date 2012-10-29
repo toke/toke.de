@@ -49,10 +49,12 @@ possibly wanted:
 The reason for this behaviour is that perl evaluates only three things as 
 false:
 
-* `0`
-* `""`
-* `()`
-* `undef`
+<ul>
+<li><code>0</code></li>
+<li><code>""</code></li>
+<li><code>()</code></li>
+<li><code>undef</code></li>
+</ul>
 
 And as || actually is an or with other precedence it will evaluate everything
 in boolean context. What you realy want is an `if undef` like operator. And
