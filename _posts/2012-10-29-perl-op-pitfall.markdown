@@ -58,4 +58,4 @@ And as || actually is an or with other precedence it will evaluate everything
 in boolean context. What you realy want is an `if undef` like operator. And
 exactly this does the `//` operator above.
 
-See `man perlop` for details.
+See [man perlop](http://perldoc.perl.org/perlop.html) for details.
