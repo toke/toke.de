@@ -6,7 +6,8 @@ license: ['CC BY-NC-SA 2.0', 'http://creativecommons.org/licenses/by-nc-sa/2.0/d
 ---
 
 *__Achtung__: Dieser Artikel ist aus dem Jahr 2004 und wurde zuletzt im Jahr 2008
-bearbeitet. Möglicherweise hat sich einiges geändert. Hinweise bitte per E-Mail.*
+bearbeitet. Möglicherweise hat sich einiges geändert. Hinweise bitte per E-Mail
+oder Kommentar.*
 
  * [Kernel unter Debian kompilieren](#kernel_unter_debian_kompilieren)
  * [make-kpkg installieren](#makekpkg_installieren)
