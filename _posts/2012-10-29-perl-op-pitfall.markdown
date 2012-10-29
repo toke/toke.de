@@ -37,11 +37,13 @@ possibly wanted:
 The reason for this behaviour is that perl evaluates only three things as 
 false:
 
- * 0
- * ""
- * ()
- * undef
+* `0`
+* `""`
+* `()`
+* `undef`
 
 And as || actually is an or with other precedence it will evaluate everything
 in boolean context. What you realy want is an `if undef` like operator. And
 exactly this does the `//` operator above.
+
+See `man perlop` for details.
