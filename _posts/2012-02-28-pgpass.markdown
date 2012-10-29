@@ -1,8 +1,8 @@
 ---
-title: "Postgre password in psql"
+title: "PostgreSQL password in psql"
 layout: post
 categories: [blog, db]
-tags: [postgre, psql, password, tipp]
+tags: [postgresql, psql, password, tipp]
 ---
 
 # Store a password for use in psql
