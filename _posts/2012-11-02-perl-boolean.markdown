@@ -10,6 +10,8 @@ tags: [perl, tipp]
 In the last Post I had written about [Perl Operator pitfalls](http://toke.de/blog/perl/2012/10/29/perl-op-pitfall/).
 
 It is by far not complete but I want to skim over a different topic today.
+I want to write about *defined false values* as return values in Perl and handling of these.
+
 As we know *0* or *'0'* evaluates to false in boolean context.
 Sometimes this may lead to problems. If your sub returns an count of processed objects
 it may be possible to assume that 0 processed Objects are an error case. But either
