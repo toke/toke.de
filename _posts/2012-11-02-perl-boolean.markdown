@@ -12,7 +12,7 @@ In the last Post I had written about [Perl Operator pitfalls](http://toke.de/blo
 It is by far not complete but I want to skim over a different topic today.
 As we know *0* or *'0'* evaluates to false in boolean context.
 Sometimes this may lead to problems. If your sub returns an count of processed objects
-it may be usefull to assume that 0 processed Objects may be an error case. But either
+it may be possible to assume that 0 processed Objects are an error case. But either
 you or your caller has to handle the 0-case special if this is not expected. The safest
 way for your caller is to check if you return a defined value or not.
 
