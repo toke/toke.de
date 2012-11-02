@@ -18,7 +18,7 @@ you or your caller has to handle the 0-case special if this is not expected. The
 way for your caller is to check if you return a defined value or not.
 
 The caller has to check like `ìf (defined $value){}` or as mentioned in my previous post
-the difference between: `get_fish() || print "Thank you!` vs. `process_queue() // die "Something wrong here."`
+the difference between: `get_fish() || print "Thank you!";` vs. `process_queue() // die "Something wrong here.";`
 (assuming both of them are returning undef or an int).
 An empty queue may be not an error state so an return value of *0* should be safe. But
 saying "thank you" for not getting fish may be sarcastical. So here the client has to
