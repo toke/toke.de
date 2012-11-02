@@ -37,6 +37,6 @@ Best thing to do:
  * Check always for defined
  * Mind the "defined false values"
  * Also check your while conditions etc.
- * Think about returning "0E0", "00" or "0 but true"
+ * Think about returning "0E0", "00", "0.0" or "0 but true"
 
 
