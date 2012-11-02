@@ -55,7 +55,7 @@ false:
 <li><code>undef</code></li>
 </ul>
 
-And as || actually is an or with other precedence it will evaluate everything
+And as || actually is an *or* with other precedence it will evaluate everything
 in boolean context. What you realy want is an `if undef` like operator. And
 exactly this does the `//` operator above.
 
