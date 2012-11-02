@@ -8,7 +8,6 @@ tags: [perl, tipp]
 # Perl boolean context
 
 In the last Post I had written about [Perl Operator pitfalls](http://toke.de/blog/perl/2012/10/29/perl-op-pitfall/).
-
 It is by far not complete but I want to skim over a different topic today.
 I want to write about *defined false values* as return values in Perl and handling of these.
 
