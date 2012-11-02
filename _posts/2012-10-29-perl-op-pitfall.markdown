@@ -47,10 +47,10 @@ possibly wanted:
 {% endhighlight %}
 
 The reason for this behaviour is that perl evaluates only three things as 
-false:
+false in boolean context:
 
 <ul>
-<li><code>0</code></li>
+<li><code>0 or '0'</code></li>
 <li>Empty values as <code>""</code> or <code>()</code></li>
 <li><code>undef</code></li>
 </ul>
