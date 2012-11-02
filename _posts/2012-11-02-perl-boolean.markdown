@@ -23,7 +23,7 @@ An empty queue may be not an error state so an return value of *0* should be saf
 saying "thank you" for not getting fish may be sarcastical. So here the client has to
 choose.
 
-DBI's execute is returning *0E0* for non-"SELECT"-statements instead of 0, other perl libraries
+DBI's execute is returning *"0E0"* for non-"SELECT"-statements instead of 0, other perl libraries
 are using different values instead of 0. "fcntl" and "ioctl" are returning the string
 *"0 but true"* instead of 0. This string has special handling within perl itself. It does
 not raise a warning when using it in integer context. But not handling this value on caller side
