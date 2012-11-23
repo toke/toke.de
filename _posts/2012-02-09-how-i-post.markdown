@@ -7,6 +7,7 @@ styles: [syntax.css]
 summary: "Example of how to use github's webhooks."
 ---
 
+
 ## Or how this site is updated
 
 This site is build via [jekyll](http://jekyllrb.com/)
@@ -85,7 +86,7 @@ The update itself is done by this little shellscript:
 {% endhighlight %}
 
 <aside>
-<h2>More</h2>
+<h2 id='more'>More</h2>
 <p>
 That is just the surface what really is possible. I also use this method in
 different other setups. Just to mention differnet usecases:
