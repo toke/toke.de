@@ -53,7 +53,8 @@ Zusammenfassung
 
 Für die Eiligen:
 
-    sudo apt-get install make gcc kernel-package fakeroot libncurses-dev kernel-source-2.4.20
+    sudo apt-get install make gcc kernel-package fakeroot \
+    libncurses-dev kernel-source-2.4.20
     cd /usr/src/
     tar xvjf kernel-source-2.4.20.tar.bz2
     ln -sf kernel-source-2.4.20 linux
