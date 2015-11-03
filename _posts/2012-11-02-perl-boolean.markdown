@@ -17,7 +17,7 @@ it may be possible to assume that 0 processed Objects are an error case. But eit
 you or your caller has to handle the 0-case special if this is not expected. The safest
 way for your caller is to check if you return a defined value or not.
 
-The caller has to check like `ìf (defined $value){}` or as mentioned in my previous post
+The caller has to check like `if (defined $value){}` or as mentioned in my previous post
 the difference between: `get_fish() && print "Thank you!";` vs. `process_queue() // die "Something wrong here.";`
 (assuming both of them are returning undef or an int).
 An empty queue may be not an error state so an return value of *0* should be safe. But
