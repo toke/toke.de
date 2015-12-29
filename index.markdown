@@ -44,6 +44,6 @@ Starting to collect recent good reads:
  * E-Mail: [web@toke.de](mailto:web@toke.de)
  * PGP-Key: [9CAA5862](9CAA5862.asc) valid from 13.08.2013
  * [XING-Profile](https://www.xing.com/profile/Thomas_Kerpe)
- * [GitHub-Profile](https://github.com/toke)
+ * [GitHub-Profile](https://github.com/toke/)
  * [My Google+ Profile](/+)
  * [Hidden-Site-Version Tor's (.onion)](https://ptusz6326ongoogf.onion/)
