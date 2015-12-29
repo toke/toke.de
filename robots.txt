@@ -3,6 +3,7 @@ Disallow: /
 
 User-agent: *
 Disallow: /impressum/
+Disallow: /photo/
 Allow: /
 
 
