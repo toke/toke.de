@@ -2,7 +2,7 @@
 
 Do whatever you like with it except for _posts and other content please drop
 me a note if you want to republish it if no further license is included.
-Currently running only on http://toke.de
+Currently running only on http://toke.de .
 
 ## Using Jekyll templates.
 
