@@ -3,7 +3,7 @@ layout: default
 title: Thomas 'Toke' Kerpe
 ---
 
-## about me
+## About me
 
 Online ego of an coder, original throws shadow when light is on.  
 
