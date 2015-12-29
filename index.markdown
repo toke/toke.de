@@ -45,4 +45,4 @@ Starting to collect recent good reads:
  * PGP-Key: [9CAA5862](9CAA5862.asc) valid from 13.08.2013
  * [XING-Profile](https://www.xing.com/profile/Thomas_Kerpe)
  * [GitHub-Profile](https://github.com/toke)
- * [Hidden-Site-Version](https://ptusz6326ongoogf.onion/)
+ * [Hidden-Site-Version (.onion)](https://ptusz6326ongoogf.onion/)
