@@ -6,7 +6,7 @@ Currently running only on http://toke.de
 
 ## Using Jekyll templates.
 
-* https://github.com/mojombo/jekyll/wiki/template-data
+* http://jekyllrb.com/docs/variables/
 * http://pages.github.com/
 
 ## Deployment
