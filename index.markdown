@@ -48,4 +48,3 @@ Starting to collect recent good reads:
  * [GitHub-Profile](https://github.com/toke/)
  * [My Google+ Profile](/+)
  * [Hidden-Site-Version, Tor's (.onion)](https://ptusz6326ongoogf.onion/)
-
