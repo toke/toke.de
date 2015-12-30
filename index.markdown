@@ -27,6 +27,7 @@ and other cool technologies… and of course Coffee!
   </ul>
 
 ## articles
+
  * Obsolete
  ** [Grundlagen: was passiert beim "surfen"?](/artikel/grundlagen/was-passiert-beim-surfen/) (german)
  ** [Kernel unter Debian kompilieren](/artikel/linux/debian-kernel-bauen/) (german, ~2008)
