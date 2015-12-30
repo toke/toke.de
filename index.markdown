@@ -8,7 +8,7 @@ title: Thomas 'Toke' Kerpe
 Online ego of an coder, original throws shadow when light is on.  
 
 I'm a software developer currently located in Karlsruhe (Germany).
-Most of my work is web, large dataset and database related. For my dayjob I write Java code.
+Most of my work is web, large dataset and database related.
 I'm a data geek.
 
 I love [Python](http://www.python.org), [Perl](/perl/),
