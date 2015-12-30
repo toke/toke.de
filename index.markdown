@@ -46,5 +46,5 @@ Starting to collect recent good reads:
  * [XING-Profile](https://www.xing.com/profile/Thomas_Kerpe)
  * [GitHub-Profile](https://github.com/toke/)
  * [My Google+ Profile](/+)
- * [Hidden-Site-Version Tor's (.onion)](https://ptusz6326ongoogf.onion/)
+ * [Hidden-Site-Version, Tor's (.onion)](https://ptusz6326ongoogf.onion/)
 
