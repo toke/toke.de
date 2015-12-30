@@ -19,7 +19,7 @@ and other cool technologies… and of course Coffee!
 
   <ul class="posts">
     {% for post in site.categories.blog limit:4 %}
-      <li><time datetime="{{ post.date| date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     {% if site.categories.blog.size > 4 %}
       <li><a href="/blog/">more…</a></li>
