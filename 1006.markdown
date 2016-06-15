@@ -5,12 +5,17 @@ title: Room 1006
 
 "Büroklimaindex"
 
-[Visualisierung](https://mqtt.toke.de/grafana/#/dashboard/db/room-1006)
+[Visualisierung][gra[grafana] und Historische Daten.
+
+<iframe src="https://mqtt.toke.de/grafana/#/dashboard/db/room-1006?panelId=7&fullscreen&from=now-12h&to=now&var-node=bb1" width="650" height="300" frameborder="0"></iframe>
 
 Rohdaten:
 
-* https://mqtt.toke.de/office/2/
+* [Simple Data stream][datastream]
 * mqtt://mqtt.toke.de:1883 Topic: devices/bb1/#
 
 Es werden ausschließlich Temperatur und Luftfeuchte erfasst und
 gespeichert.
+
+[grafana]: https://mqtt.toke.de/grafana/#/dashboard/db/room-1006
+[datastream]: https://mqtt.toke.de/office/2/
