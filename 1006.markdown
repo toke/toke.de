@@ -5,7 +5,7 @@ title: Room 1006
 
 "Büroklimaindex" im Raum 1006.
 
-[Visualisierung][gra[grafana] und Historische Daten.
+[Visualisierung][grafana] und Historische Daten.
 
 <iframe src="https://mqtt.toke.de/grafana/#/dashboard/db/room-1006?panelId=7&amp;fullscreen&amp;from=now-12h&amp;to=now&amp;var-node=bb1" width="650" height="300" frameborder="0"></iframe>
 
