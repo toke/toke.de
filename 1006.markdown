@@ -3,7 +3,7 @@ layout: default
 title: Room 1006
 ---
 
-"Büroklimaindex"
+"Büroklimaindex" im Raum 1006.
 
 [Visualisierung][gra[grafana] und Historische Daten.
 
