@@ -6,16 +6,14 @@ lang: de
 license: ['CC BY-NC-SA 2.0', 'http://creativecommons.org/licenses/by-nc-sa/2.0/de/']
 ---
 
-Grundlagen: Was passiert beim "surfen"?
-=======================================
+## Grundlagen: Was passiert beim "surfen"?
 
 Es handelt sich hier nicht um eine Darstellung bis ins letze Detail. Sie ist für den interessierten Laien gedacht, der einen Überblick über die Funktionsweise des Internets erhalten soll.
-Das Internet ist ein Kommunikationsmedium mit verschiedensten Diensten und Kanälen. Einer davon, den wohl neben der E-Mail am meisten genutzen - das World-Wide-Web (www) dient hier als Beispiel. 
+Das Internet ist ein Kommunikationsmedium mit verschiedensten Diensten und Kanälen. Einer davon, den wohl neben der E-Mail am meisten genutzen - das World-Wide-Web (www) dient hier als Beispiel.
 
 Es handelt sich hierbei um eine Arbeitsversion. Anregungen und Korrekturen nehme ich sehr gerne via E-Mail entgegen.
 
-Die Adresse
-===========
+## Die Adresse
 
 Zuerst einmal schauen wir uns die Adressleiste des Browsers an. Wir sehen die Adresse dieser Seite, auch URL (Uniform Resource Locator) genannt:
 
@@ -31,8 +29,7 @@ Da es sich bei einem Großteil der Internet-Server nicht um Windows sondern um U
 
 *__Anmerkung:__ In der Realität handelt es sich meistens nicht um den tatsächlichen Pfad oder Dateiname einer "Resource" sondern lediglich einen innerhalb der Domain eindeutigen Bezeichner. Eine URL kann noch aus weiteren Teilen bestehen: Anker oder Fragment (z.B. http://www.toke.de/artikel/grundlagen/was-passiert-beim-surfen/#domainnamen und Query-Strings (z.B. http://www.google.de/?q=bing). URL ist in [RFC 1738](https://tools.ietf.org/html/rfc1738) definiert.*
 
-Domainnamen
-===========
+## Domainnamen
 
 Das **Domain Name System (DNS)** ist ein Dienst im Internet, der dafür sorgt, dem Anwender die Möglichkeit zu geben Domainnamen einzugeben. Geschieht dies muss der Computer zuerst den eingegebenen Namen in eine IP-Adresse auflösen. Wie bereits erwähnt werden im Internet Domainnamen eingesetzt um dem Anwender die Arbeit zu erleichtern, denn ein Domainname wird vom Computer in eine IP-Adresse umgewandelt. Dies macht die Anwendersoftware automatisch.
 
@@ -44,14 +41,13 @@ Zu jeder Domain wird in einer öffentlichen Datenbank (WHOIS) der Kontaktdatenbe
 
 Die folgenden Einträge oft "www" werden **Subdomain** oder **Hostname** genannt. Ich schreibe "Einträge" weil dies auch sehr tief verzweigt sein kann. So ist "www-ibt.etec.uni-karlsruhe.de" ein gültiger Domainname. Korrekt gesprochen ist "www-ibt" der Host oder auch Rechnername, "etec" die Subdomain, "uni-karlsruhe" der Domainname und "de" die Top-Level-Domain
 
-Wir wissen nun, wie ein Domainname aufgebaut ist. Der Computer zerlegt in also in seine Bestandteile und kann nun - vereinfacht ausgedrückt - eine Anfrage bei den Domainservern - eine Art Adressbuch - durchführen. 
+Wir wissen nun, wie ein Domainname aufgebaut ist. Der Computer zerlegt in also in seine Bestandteile und kann nun - vereinfacht ausgedrückt - eine Anfrage bei den Domainservern - eine Art Adressbuch - durchführen.
 Sollte die Domain so wie sie eingegeben ist in den Datenbeständen verfügbar sein, so gibt der Domainserver dem Anwenderprogramm eine sog. IP-Adresse zurück unter der der gewünschte Server erreichbar ist.
 Wenn also kein genau passender Eintrag in den Domainservern hinterlegt ist, kann die gewünschte Seite nicht aufgerufen werden. Meist verweisen mehrere Domaineinträge auf die selben Adressen. Es kann also schon ein Unterschied sein, ob man "www.toke.de" oder "toke.de" eingibt.
 
 *__Ermitteln der IP-Adresse:__ Die Namensauflösung kann man manuell durchführen: ein Terminal/Shell aufmachen und dann folgendes eingeben: "nslookup www.toke.de". Sie erhalten nun die IP-Adresse des Servers.*
 
-IP-Adressen
-===========
+## IP-Adressen
 
 Wie im Kapitel "Domainnamen" genauer beschrieben wird ein großer Aufwand getrieben um die vom Benutzer eingegebenen Adressen in IP-Adressen umzuwandeln. IP-Adressen sind eindeutige numerische Kennungen von Computern. Sowohl der Rechner, den Sie zu erreichen wünschen, als auch der eigene haben eine solche Adresse. Sie ist zwingend notwendig um eine Kommunikation im Internet zwischen zwei Rechnern zu ermöglichen.
 
@@ -59,15 +55,13 @@ Eine IP-Adresse besteht in der üblichen Schreibweise aus 4 durch Punkte getrenn
 
 Neben den herkömmlichen IP-Adressen (IPv4 oder IP Version 4), die sich durch 4 durch Punkte getrennte Zahlenblöcken im Bereich vom 0-255 auszeichen, gibt es den verspäteten Nachfolger, IPv6 bzw IP Version 6. Eine IPv6-Adresse sieht, wie am Beispiel von toke.de, so aus: 2a01:4f8:100:14a5::3. Diese ist jedoch nur relevant wenn man selbst eine IPv6-Verbindung hat, also der eigene Rechner selber über IPv6 auf das Internet zugreifen kann.
 
-Datenübertragung mit HTTP
-=========================
+## Datenübertragung mit HTTP
 
 Nachdem Sie eine Adresse in den Webbrowser eingegeben haben, wird er die IP-Addresse ermitteln und im Anschluß eine Netzwerkverbindung zu besagter Adresse aufbauen.
 Sollte dies funktionieren wird der Webserver das angeforderte Dokument an den Anfragenden schicken. Im Fehlerfalle wird eine entsprechende Seite angezeigt. Meist enthaltern diese Fehlerseiten einen standardisierten Fehlercode.
 Der Webbrowser weiss nun im Idealfall, was er mit den empfangenen Daten zu tun hat. Entweder er zeigt sie an - zum Beispiel Bilder oder Dokumente - oder er fragt wo er sie Speichern soll.
 
-HTTP-Status-Codes
-==================
+## HTTP-Status-Codes
 
 Eine Liste der üblichsten **Status**- und **Fehlercodes** wie sie im HTTP-Standard festgelegt sind.
 Dies ist nicht zu verwechseln mit Fehlern, die von Programmen auf der Serverseite erzeugt wurden!
@@ -80,8 +74,7 @@ Die Fehler - oder auch Statuscodes sind in der Regel dreistellige Zahlen. Diese 
 * **4xx** - Clientfehler - Diese Art von Fehlern sind durch den Client entstanden z.B. eine Ungültige Anfrage gesendet.
 * **5xx** - Serverfehler - Hier hat der Server einen Fehler ausgelöst.
 
-"Häufige Fehler"
-================
+## "Häufige Fehler"
 
 Im folgenden sind einige häufiger angezeigte Fehlercodes mit Erklärung aufgeführt
 
