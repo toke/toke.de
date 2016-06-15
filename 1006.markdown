@@ -1,0 +1,16 @@
+---
+layout: default
+title: Room 1006
+---
+
+"Büroklimaindex"
+
+[Visualisierung](https://mqtt.toke.de/grafana/#/dashboard/db/room-1006)
+
+Rohdaten:
+
+* https://mqtt.toke.de/office/2/
+* mqtt://mqtt.toke.de:1883 Topic: devices/bb1/#
+
+Es werden ausschließlich Temperatur und Luftfeuchte erfasst und
+gespeichert.
