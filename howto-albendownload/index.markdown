@@ -1,3 +1,9 @@
+---
+layout: default
+title: Howto Download
+---
+
+
 # Download von Alben / Bilderauswahl
 
 Es können ganze Alben auf einmal oder eine Auswahl von Bildern
