@@ -43,7 +43,8 @@ Starting to collect recent good reads:
 ## contact
 
  * E-Mail: [web@toke.de](mailto:web@toke.de)
- * PGP-Key: [4829CA6D9CAA5862](9CAA5862.asc) valid from 13.08.2013
+ * GPG-Key: [4829CA6D9CAA5862](9CAA5862.asc) valid from 13.08.2013
+ * GPG-Fingerprint: `5907 12A0 6268 9892 E018  EAFC 4829 CA6D 9CAA 5862`
  * [XING-Profile](https://www.xing.com/profile/Thomas_Kerpe)
  * [GitHub-Profile](https://github.com/toke/)
  * [My Google+ Profile](/+)
