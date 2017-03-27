@@ -12,7 +12,7 @@ Most of my work is web, large dataset and database related.
 I'm a data geek.
 
 I love [Python](http://www.python.org), [Perl](/perl/), [Go](http://golang.org),
-[ipfs](https://ipfs.io/), [CouchDB](http://couchdb.apache.org)
+[IPFS](https://ipfs.io/), [CouchDB](http://couchdb.apache.org)
 and other cool technologies… and of course Coffee!
 
 ## latest blog posts
