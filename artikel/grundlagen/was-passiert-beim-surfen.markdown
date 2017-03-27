@@ -13,7 +13,7 @@ Das Internet ist ein Kommunikationsmedium mit verschiedensten Diensten und Kanä
 
 Es handelt sich hierbei um eine Arbeitsversion. Anregungen und Korrekturen nehme ich sehr gerne via E-Mail entgegen.
 
-## Die Adresse
+## Die Adresse (URL)
 
 Zuerst einmal schauen wir uns die Adressleiste des Browsers an. Wir sehen die Adresse dieser Seite, auch URL (Uniform Resource Locator) genannt:
 
