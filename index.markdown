@@ -11,8 +11,8 @@ I'm a software developer currently located in Karlsruhe (Germany).
 Most of my work is web, large dataset and database related.
 I'm a data geek.
 
-I love [Python](http://www.python.org), [Perl](/perl/),
-[ipfs](https://ipfs.io/), [CouchDB](http://couchdb.apache.org), [Go](http://golang.org), [Android](http://www.android.com)
+I love [Python](http://www.python.org), [Perl](/perl/), [Go](http://golang.org),
+[ipfs](https://ipfs.io/), [CouchDB](http://couchdb.apache.org)
 and other cool technologies… and of course Coffee!
 
 ## latest blog posts
