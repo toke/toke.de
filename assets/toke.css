@@ -44,6 +44,10 @@ html {
     -o-transform: skew(5deg) rotate(5deg);
     transform: skew(5deg) rotate(5deg);
 }
+
+h1, h2, h3, h4 {
+    color: #333;
+}
 a {
     color: #006400;
     text-decoration: none;
