@@ -38,7 +38,7 @@ Starting to collect recent good reads:
 
  * [Javascript the good parts](http://javascript.crockford.com/) - [Douglas Crockford](http://crockford.com/)
  * Fermats letzter Satz ([Fermat's last theorem](http://www.simonsingh.net/books/fermats-last-theorem/the-book/) - [Simon Singh](http://www.simonsingh.net/))
- * Goedel Escher Bach - [Douglas Hofstadter](http://www.cogs.indiana.edu/people/homepages/hofstadter.html)
+ * Goedel Escher Bach - Douglas Hofstadter
 
 ## contact
 
