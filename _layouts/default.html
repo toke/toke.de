@@ -5,7 +5,7 @@
         <title>{% if page.title %}{{ page.title }} | {% endif %}Toke's page</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Toke's page{% endif %}">
         <meta name="author" content="Thomas Kerpe">
-        
+
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/toke.css">
         {% if page.styles %}
         {% for style in page.styles %}
@@ -19,19 +19,19 @@
         {% endif %}
     </head>
     <body class="{{ page.layout }}">
-    
+
     <div id="container">
     <article>
     <header>
     <h1><a href="/">{{ page.title }}</a></h1>
     <p><em></em></p>
     </header>
-    
+
     <nav>
-        <ul>
-        <li><a href="{{ site.url }}/blog/">blog</a></li>
-        <li><a href="{{ site.url }}/">website</a></li>
-        <li><a href="{{ site.url }}/#about_me">about me</a></li>
+        <ul class="nav-main">
+          <li><a href="{{ site.url }}/">#website</a></li>
+          <li><a href="{{ site.url }}/blog/">/blog/</a></li>
+          <li><a href="{{ site.url }}/#about_me">#about me</a></li>
         </ul>
     </nav>
     <section id="content">
