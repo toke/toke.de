@@ -1,6 +1,15 @@
 url: ""
-pygments: true
+highlight: pygments
 safe: false
 permalink: pretty
 paginate: 10
-exclude: fabfile.py fabfile.pyc README.md etc
+exclude:
+    - fabfile.py
+    - fabfile.pyc
+    - README.md
+    - etc
+    - Gemfile
+    - Gemfile.lock
+gems:
+    - jekyll-relative-links
+    - jekyll-paginate
