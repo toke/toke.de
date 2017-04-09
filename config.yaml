@@ -54,3 +54,8 @@ menu:
     - name: "Impressum"
       identifier: "impress"
       url: "/impressum/"
+      weight: 100
+    - name: ".onion"
+      identifier: "onion"
+      url: "http://ptusz6326ongoogf.onion/"
+      weight: 150
