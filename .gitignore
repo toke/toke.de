@@ -1,6 +1,1 @@
-*~
-*.swp
-tmp
-.DS_Store
-_site
-*.pyc
+/public

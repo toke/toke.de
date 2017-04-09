@@ -1,0 +1,113 @@
+---
+date: 2012-02-09T00:00:00Z
+summary: Example of how to use github's webhooks.
+tags:
+- perl
+- deploy
+- git
+- github
+- jekyll
+- rest
+title: How do I Post
+url: /blog/2012/02/how-i-post/
+alias: /blog/2012/02/09/how-i-post/
+---
+
+## Or how this site is updated
+
+This site is build via [jekyll](http://jekyllrb.com/)
+and the sources are coming from a git repository on
+[github](https://github.com). I do
+not write something special about `git` or `jekyll` here. Just how the
+"deployment" works.
+
+## Github webhook
+
+![Github Webhook](/assets/github-webhook.png)
+
+Github has a nice feature called "Service hooks" - especially a
+"Post-Receive URLs" hook. I use this hook to notify my server to
+do a `git pull` on a local repository, then rebuild the site with
+`jekyll` and `rsync` changed data to the document root.
+
+The perl webhook endpoint (Dancer.pm code):
+```perl
+package ReceiveHook;
+use Dancer ':syntax';
+our $VERSION = '0.3';
+# Configuration for different projects
+my $config = {
+    "PROJECTNAME" => {
+        run => "/home/user/bin/updateblog.sh",
+    },
+};
+prefix '/notify';
+get '/*' => sub {
+    header 'Allow' => 'POST';
+    status '405';
+    "Not for you\n";
+};
+post '/:project' => sub {
+    if (not defined $config->{params->{project}}) {
+        status 'not_found';
+        return "No such project: ".params->{project}."\n";
+    }
+    my $payload = params->{'payload'};
+    if (not defined $payload) {
+        status '415';
+        return "I need a payload\n";
+    }
+    # Read the configuration for that repo
+    my $repo_config = $config->{$repo->{name}};
+    if (defined $repo_config && defined $repo_config->{run}) {
+        eval {
+            system $repo_config->{run};
+        };
+    }
+    return "OK";
+};
+true;
+```
+
+The update itself is done by this little shellscript:
+
+```bash
+    #!/bin/sh
+
+    REPPATH="/home/user/git/localgitrepository"
+    DEPLOYTARGET="/var/www/sites/mydomain"
+    LIVEURL="http://mydeploydomain.tld"
+
+    if [ -d ${REPPATH} ] ; then
+        cd "${REPPATH}"
+        git pull
+        jekyll --url "${LIVEURL}"
+        rsync -rXogpEAt _site/ "${DEPLOYTARGET}"
+    fi
+```    
+
+<aside>
+<h2 id='more'>More</h2>
+<p>
+That is just the surface what really is possible. I also use this method in
+different other setups. Just to mention differnet usecases:
+</p>
+<ul>
+<li>Keep repositories synchronized</li>
+<li>Automatic Builds</li>
+<li>Automatic deployments</li>
+<li>Test framework</li>
+<li>Configuration management</li>
+<li>Even a small distributed site or WiKi is possible</li>
+</ul>
+<p>
+With a simple git post-commit-hook such a http Post with `curl` it is
+github independent.</p>
+</aside>
+
+## Update (17.12.2016)
+
+I use Hugo now and a different Webhook
+
+## Code
+[Github repository](https://github.com/toke/dancing-github-webhooks) feel free to use it as you like.

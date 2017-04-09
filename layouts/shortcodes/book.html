@@ -1,0 +1,9 @@
+
+{{ $isbn := .Get 0}}
+{{ $a := index $.Site.Data.books.all $isbn}}
+
+<div>
+<strong>{{ $a.title }}</strong>{{ if $a.pages }} ({{ $a.pages}} {{ i18n "pages" }}){{ end }}<br/>
+<i>{{ $a.author }}</i>
+ISBN: {{ $a.isbn }}
+</div>

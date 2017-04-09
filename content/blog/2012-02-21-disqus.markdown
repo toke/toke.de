@@ -1,0 +1,26 @@
+---
+date: 2012-02-21T00:00:00Z
+summary: I am evaluating disqus for my blog
+tags:
+- disqus
+- comment
+title: Evaluating Disqus (updated)
+url: /blog/2012/02/disqus/
+alias: /blog/2012/02/21/disqus/
+---
+
+## Commenting
+
+I'm not a big fan of external services. Especially since I do not log IP-Adresses
+and offloading Javascript gives some more problems with privacy.
+This site is very simple. But I want to add comments to blog posts. My plan was
+to write a little comment script for embedding via Javascript. Since I don't have
+so much time right now I will look for alternatives. Now I am experimenting with
+[disqus](http://disqus.com). The service looks nice and integrates very well with
+my site. One downside is the missing SSL support. I will look after this later.
+
+For the next weeks the disqus service will be available on this site, maybe for
+a longer time. We'll see. Feel free to comment.
+
+## Update (22.04.2012)
+Disqus seems to work with SSL now. I've enabled it. Hope this will stay alive.
