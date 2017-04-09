@@ -2,6 +2,10 @@
 date: 2017-04-08T18:32:01+02:00
 description: Thomas 'Toke' Kerpe Personal page
 title: Home
+tags:
+  - home
+  - tor
+  - ipfs
 ---
 
 ## About me
