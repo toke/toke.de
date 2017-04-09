@@ -21,3 +21,7 @@ You can contact me via Mail, XMPP or Signal.
 * E-Mail: [web@toke.de](mailto:web@toke.de)
 * XMPP: [toke@toke.de](xmpp:toke@toke.de)
 * OpenPGP Key: [B5AD 7FCB 270D A762 46D2  A8F2 B0E6 5607 ABE5 7238](9CAA5862.asc)
+
+This site is also available via [Tor](https://torproject.org): [ptusz6326ongoogf.onion](https://ptusz6326ongoogf.onion)
+and ipfs: `/ipns/toke.de` or [/ipfs/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF](https://toke.de/ipfs/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF)
+(Experimental).
