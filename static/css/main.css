@@ -412,6 +412,10 @@ section.footer .container .copyright {
   flex-grow: 0.5;
   text-align: start;
 }
+section.footer .container .footnav {
+  flex-grow: 0.5;
+  text-align: start;
+}
 section.footer .container .icons {
   flex-grow: 0.5;
   text-align: end;
