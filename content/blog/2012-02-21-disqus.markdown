@@ -24,3 +24,7 @@ a longer time. We'll see. Feel free to comment.
 
 ## Update (22.04.2012)
 Disqus seems to work with SSL now. I've enabled it. Hope this will stay alive.
+
+## Update (09.04.2017)
+5 Years later… I switched to [isso](https://posativ.org/isso/).
+Self hosted and (hopefully) hassle free.
