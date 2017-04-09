@@ -23,7 +23,7 @@ params:
   #copyright: "Copyleft by Thomas Kerpe"
   logofile: "img/avatar.png"
   faviconfile: "assets/favicon.ico"
-  highlightjs: true
+  #ighlightjs: true
   progressively: true
   latestpostcount: 5
   github: "toke"
