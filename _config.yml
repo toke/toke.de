@@ -1,6 +1,0 @@
-url: ""
-pygments: true
-safe: false
-permalink: pretty
-paginate: 10
-exclude: fabfile.py fabfile.pyc README.md etc
