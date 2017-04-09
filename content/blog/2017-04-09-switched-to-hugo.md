@@ -27,7 +27,6 @@ For some time I used [adnanh/webhook](https://github.com/adnanh/webhook)
 to accept the webhooks with success, so I only had to modify
 my accepting shell script a little bit to call hugo instead of jekyll.
 
-The design of the site is not final and I may tweak it,
-it is based on [cocoa-eh hugo theme](http://themes.gohugo.io/cocoa-eh-hugo-theme/)
-but it is tweaked a lot.
+The design of the site is not final and I may tweak it.
+Currently it is based on [cocoa-eh hugo theme](http://themes.gohugo.io/cocoa-eh-hugo-theme/).
 
