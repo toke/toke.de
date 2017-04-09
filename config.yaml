@@ -25,7 +25,7 @@ params:
   faviconfile: "assets/favicon.ico"
   highlightjs: true
   progressively: true
-  latestpostcount: 3
+  latestpostcount: 5
   github: "toke"
   email: "toke@toke.de"
   twitter: "brxs"
