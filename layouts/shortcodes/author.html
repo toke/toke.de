@@ -1,0 +1,5 @@
+
+{{ $author := .Get 0}}
+{{ $a := index $.Site.Data.authors.all $author}}
+
+<a href="{{$a.url}}">{{ $a.name }}</a>

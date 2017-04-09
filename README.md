@@ -1,17 +1,9 @@
-# Personal page
+# My personal site
 
-Do whatever you like with it except for _posts and other content please drop
-me a note if you want to republish it if no further license is included.
-Currently running only on http://toke.de .
+My personal, static site, build using [Hugo](https://gohugo.io).
 
-## Using Jekyll templates.
+## Contact
 
-* http://jekyllrb.com/docs/variables/
-* http://pages.github.com/
+Contact: Thomas Kerpe [toke@toke.de](mailto:toke@toke.de)
 
-## Deployment
-
-Using an VCS as an deployment tool is not a good practise. Anyway I'm
-using GitHub trigger to call an webservice written with the Dancer perl library.
-You can read more about this in my [Blogpost](https://toke.de/blog/2012/02/09/how-i-post/).
-The code is on GitHub: https://github.com/toke/dancing-github-webhooks
+OpenPGP fingerprint: `B5AD 7FCB 270D A762 46D2  A8F2 B0E6 5607 ABE5 7238`

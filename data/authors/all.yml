@@ -1,0 +1,10 @@
+crockford:
+  id: crockford
+  name: Douglas Crockford
+  url: http://crockford.com/
+singh:
+  name: Simon Singh
+  url: http://www.simonsingh.net/
+hofstadter:
+  name: Douglas R. Hofstadter
+  url: http://www.cogs.indiana.edu/people/homepages/hofstadter.html

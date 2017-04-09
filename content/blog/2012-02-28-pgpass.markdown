@@ -1,0 +1,27 @@
+---
+date: 2012-02-28T00:00:00Z
+tags:
+- postgresql
+- psql
+- password
+- tipp
+title: Store PostgreSQL password for psql
+url: /blog/2012/02/pgpass/
+alias: /blog/2012/02/28/pgpass/
+---
+
+I was asked today how to use store an password for use with `psql`.
+I've done this before several times but could not remember how. So
+I tried to look it up with man psql. There was a referer to .pgpass
+but no syntax. The pgpass is part of libpq. So this is a reminder
+to myself:
+
+
+## .pgpass format
+
+    hostname:port:database:username:password
+
+To quote the [Documentation][pgpass]: "Each of the first four fields may be a literal value, or \*, which
+matches anything."
+
+[pgpass]: http://www.postgresql.org/docs/8.2/static/libpq-pgpass.html
