@@ -20,7 +20,7 @@ params:
   dateform: "2. Jan 2006"
   dateformfull: "Mon 2 Jan 2006 15:04:05 MST"
   description: "Toke's Blog"
-  copyright: "Copyleft by Thomas Kerpe"
+  #copyright: "Copyleft by Thomas Kerpe"
   logofile: "img/avatar.png"
   faviconfile: "assets/favicon.ico"
   highlightjs: true
