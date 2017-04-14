@@ -1,6 +1,7 @@
 ---
 date: 2017-04-09T14:04:05+02:00
 description: Switched from jeckyll to Hugo
+author: "Thomas Kerpe"
 tags:
 - meta
 - hugo
@@ -10,7 +11,7 @@ lang: en
 ---
 
 For years this site was generated using Jekyll.
-A long time I planned to move to [Hugo](https://gohugo.io) as 
+A long time I planned to move to [Hugo](https://gohugo.io) as
 I liked the concept and it's ease of use. And finally
 I used in other places with success.
 
@@ -29,4 +30,3 @@ my accepting shell script a little bit to call hugo instead of jekyll.
 
 The design of the site is not final and I may tweak it.
 Currently it is based on [cocoa-eh hugo theme](http://themes.gohugo.io/cocoa-eh-hugo-theme/).
-

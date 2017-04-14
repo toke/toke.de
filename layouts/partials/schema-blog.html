@@ -1,0 +1,40 @@
+<!-- Structured Data Page Schema - HIDDEN -->
+<div itemscope itemtype="http://schema.org/BlogPosting" style="display:none;">
+  <meta itemprop="mainEntityOfPage" content="{{ .Permalink }}" />
+  {{ if .Params.lang }}
+  <meta itemprop="inLanguage" content="{{ .Params.lang }}" />
+  {{ else }}
+  <meta itemprop="inLanguage" content="{{ .Site.LanguageCode }}" />
+  {{ end }}
+  <h1 itemprop="headline">{{ .Title }}</h1>
+  <meta itemprop="name" content="{{ .Title }}" />
+  <meta itemprop="description" content="{{if .Params.summary }}{{ .Params.summary  }}{{ else }}{{ if .Description }}{{ .Description }}{{ end }}{{ end }}" />
+  <meta itemprop="wordCount" content="{{ .WordCount }}" />
+  <meta itemprop="keywords" content="{{ range $i,$e := .Params.tags }}{{ if $i }},{{ end }}{{ $e }}{{ end }}" />
+
+  <meta itemprop="copyrightYear" content="{{ .Date.Format "2006" }}" />
+  <div itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="{{ $.Param "author" }}">
+  </div>
+
+  <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+    <img  itemprop="url" src="{{ $.Param "logo" | absURL }}" alt="thumbnail" />
+    <meta itemprop="width" content="220" />
+    <meta itemprop="height" content="220" />
+  </div>
+  <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}" />
+  <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02" }}" />
+  <a itemprop="mainEntityOfPage" href="{{ .Permalink }}"></a>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="{{ $.Param "author" }}" />
+  </div>
+  <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="{{ $.Param "author" }}" />
+    <a itemprop="url" href="/">
+      <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"  >
+        <img itemprop="image" src="{{ .Site.Params.favicon | absURL }}" />
+        <link itemprop="url" href="{{ .Site.Params.favicon | absURL }}" />
+      </span>
+    </a>
+  </div>
+</div>

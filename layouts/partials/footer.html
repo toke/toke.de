@@ -1,64 +1,65 @@
 <section class="footer">
     <div class="container">
-        {{ if .Site.Params.copyright }}
+        {{- if .Site.Params.copyright -}}
         <div class="copyright">
             <a href="{{ .Site.BaseURL }}license">{{ .Site.Params.copyright}}</a>
         </div>
-        {{ end }}
+        {{- end -}}
         <nav class="footernav">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.footer }}
+        {{- $currentPage := . -}}
+        {{- range .Site.Menus.footer -}}
           <a href="{{.URL}}">{{ .Name }}</a>
-        {{ end }}
+        {{- end -}}
       </nav>
         <div class="icons">
-        {{ if .Site.Params.github }}
+
+        {{- if .Site.Params.github -}}
             <a href="https://github.com/{{ .Site.Params.github }}" target="_blank">
                 <i class="icon ion-social-github" title="github"></i>
             </a>
-        {{ end }}
+        {{- end -}}
 
-        {{ if .Site.Params.twitter }}
+        {{- if .Site.Params.twitter -}}
             <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
                 <i class="icon ion-social-twitter" title="twitter"></i>
             </a>
-        {{ end }}
+        {{- end -}}
 
-        {{ if .Site.Params.googlePlus }}
+        {{- if .Site.Params.googlePlus -}}
             <a href="https://plus.google.com/+{{ .Site.Params.googlePlus }}" target="_blank">
                 <i class="icon ion-social-googleplus" title="google-plus"></i>
             </a>
-        {{ end }}
+        {{- end -}}
 
-        {{ if .Site.Params.linkedin }}
+        {{- if .Site.Params.linkedin -}}
             <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}" target="_blank">
                 <i class="icon ion-social-linkedin" title="linkedin"></i>
             </a>
-        {{ end }}
+        {{- end -}}
 
-        {{ if .Site.Params.email }}
+        {{- if .Site.Params.email -}}
             <a href="mailto:{{ .Site.Params.email }}">
                 <i class="icon ion-ios-email larger" title="email"></i>
             </a>
-        {{ end }}
+        {{- end -}}
 
-        {{ if .Site.RSSLink }}
+        {{- if .Site.RSSLink -}}
             <a href="{{ .Site.RSSLink }}">
                 <i class="icon ion-social-rss larger" title="rss"></i>
             </a>
-        {{ end }}
+        {{- end -}}
 
-        {{ if and .Site.Params.i18n_flags .IsTranslated }}
-            {{ range .Translations }}
+        {{- if and .Site.Params.i18n_flags .IsTranslated -}}
+            {{- range .Translations -}}
                 <a href="{{ .Permalink }}"><img class="icon flag" src="/img/flags/{{ .Lang }}.svg"></a>
-            {{ end }}
-        {{ end }}
+            {{- end -}}
+        {{- end -}}
 
         </div>
     </div>
 </section>
 
-{{ partial "footer_scripts" . }}
+{{- partial "footer_scripts" . -}}
 
 </body>
 </html>

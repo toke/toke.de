@@ -1,30 +1,21 @@
 <!-- CSS -->
-
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/ionicons.min.css">
 
-{{ if .Site.Params.highlightjs }}
+{{- if .Site.Params.highlightjs -}}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.min.css">
-{{ end }}
+{{- end -}}
 
-{{ if .Site.Params.progressively }}
+{{- if .Site.Params.progressively -}}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/progressively.min.css">
-{{ end }}
+{{- end -}}
 
-{{ range .Site.Params.extracssfiles }}
+{{- range .Site.Params.extracssfiles -}}
   <link rel="stylesheet" href="{{ . | relURL }}">
-{{ end }}
-
+{{- end -}}
 <!-- Icon -->
-<link rel="shortcut icon"
-{{ if .Site.Params.faviconfile }}
-    href="{{ .Site.Params.faviconfile | relURL }}"
-{{ else }}
-    href="{{ .Site.BaseURL }}img/favicon.ico"
-{{ end }}
->
-
+<link rel="shortcut icon" href="{{ .Site.Params.favicon | default "/img/favicon.ico" | relURL }}">
 <!-- RSS -->
-{{ if .RSSLink }}
+{{- if .RSSLink -}}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-{{ end }}
+{{- end -}}

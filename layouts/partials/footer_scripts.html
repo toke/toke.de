@@ -1,13 +1,13 @@
-{{ if .Site.Params.highlightjs }}
+{{- if .Site.Params.highlightjs -}}
   <script src="{{ .Site.BaseURL }}js/highlight.min.js" defer></script>
-  {{ range .Site.Params.highlightjslanguages }}
+  {{- range .Site.Params.highlightjslanguages -}}
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/{{.}}.min.js" defer></script>
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{- end -}}
 
-{{ if .Site.Params.progressively }}
+{{- if .Site.Params.progressively -}}
   <script src="{{ .Site.BaseURL }}js/progressively.min.js" defer></script>
-{{ end }}
+{{- end -}}
 
 <script>
   window.onload = function() {

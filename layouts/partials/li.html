@@ -1,5 +1,5 @@
 <li class="post-item">
     <span class="meta">{{ .Date.Format .Site.Params.dateform }}</span>
     <a href="{{ .Permalink  | relLangURL}}"><span>{{ .Title }}</span></a>
-    {{ if .Params.lang }}&nbsp;<span class="meta"> [{{ .Params.lang }}]</span>{{ end }}
+    {{- if .Params.lang -}}&nbsp;<span class="meta"> [{{ .Params.lang }}]</span>{{- end -}}
 </li>
