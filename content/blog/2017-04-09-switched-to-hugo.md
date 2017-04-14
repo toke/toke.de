@@ -1,6 +1,6 @@
 ---
 date: 2017-04-09T14:04:05+02:00
-description: Switched from jeckyll to Hugo
+description: Switched from Jekyll to Hugo
 author: "Thomas Kerpe"
 tags:
 - meta
