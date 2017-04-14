@@ -29,11 +29,9 @@ Langton's Ant on Numberphile
 
 ## Code
 
-{{<gist toke 6f52bd0a035da110c6a3>}}
+{{<gist u="toke" id="6f52bd0a035da110c6a3" >}}
 
 ## BTW
 
 {{<youtube  hy3LG6isnQA>}}
 Redstone Jazz has implemented Langton's Ant within Minecraft.
-
-
