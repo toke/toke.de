@@ -10,7 +10,7 @@ Some other experiments and Projects can be found at my Github
 Gists:
 
 {{< gists >}}
-see more [gists.github.com/toke …](https://gists.github.com/toke)
+see more [gist.github.com/toke …](https://gist.github.com/toke)
 
 ## Snippets and Experiments
 
