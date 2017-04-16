@@ -18,7 +18,7 @@ but will end in stable state in later cycles.
 
 [Langton's_ant on Wikedia](https://en.wikipedia.org/wiki/Langton's_ant)
 
-{{<youtube NWBToaXK5T0>}}
+{{<youtube "NWBToaXK5T0" >}}
 Langton's Ant on Numberphile
 
 

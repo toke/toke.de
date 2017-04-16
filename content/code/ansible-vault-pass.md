@@ -19,4 +19,4 @@ due to incompatibilities in git vs. ansible ini style. The bash version is kept 
 
 ## Code
 
-{{<gist toke ebc49b7dd08d7b87e23921029176d3f5 "ansible-vault-pass.py" >}}
+{{<gist u="toke" id="ebc49b7dd08d7b87e23921029176d3f5" >}}
