@@ -12,7 +12,9 @@ tags:
 
 Online ego of an coder, original throws shadow when light is on.
 
-I’m a software developer currently located in Karlsruhe (Germany). Most of my work is web, large dataset and database related. I’m a data geek.
+I’m a software developer currently located in Karlsruhe (Germany).
+Most of my work is web, large dataset and database related. I’m a data geek.
+I also build Electronic devices, do 3D-Prints and interact with all kind of environments.
 
 I love [Python](http://www.python.org), [Perl](http://www.perl.org), [Go](http://golang.org),
 [IPFS](https://ipfs.io/), [CouchDB](http://couchdb.apache.org)
@@ -25,6 +27,7 @@ You can contact me via Mail, XMPP or Signal.
 * E-Mail: [web@toke.de](mailto:web@toke.de)
 * XMPP: [toke@toke.de](xmpp:toke@toke.de)
 * OpenPGP Key: [B5AD 7FCB 270D A762 46D2  A8F2 B0E6 5607 ABE5 7238](9CAA5862.asc)
+* Keybase.io: [toke](https://keybase.io/toke)
 
 This site is also available via [Tor](https://torproject.org): [ptusz6326ongoogf.onion](https://ptusz6326ongoogf.onion)
 and ipfs: `/ipns/toke.de` or [/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF](/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF)
