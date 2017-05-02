@@ -17,3 +17,18 @@
     <meta property="twitter:card" content="summary">
 {{- end -}}
 <meta property="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .IsPage }}{{ .Description }}{{ end }}">
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Website",
+  "name": "{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}",
+  "description": "{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .IsPage }}{{ .Description }}{{ end }}",
+  "url": "https://toke.de",
+  "logo": "{{ .Site.Params.logo | relURL }}",
+  "sameAs": [
+    "https://ptusz6326ongoogf.onion/",
+    "https://plus.google.com/+{{ .Site.Params.googlePlus }}/posts",
+    "https://www.twitter.com/{{ .Site.Params.twitter }}"
+    ]
+}
+</script>
