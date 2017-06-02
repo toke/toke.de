@@ -8,6 +8,7 @@ tags:
 - jekyll
 title: Switched to Hugo
 lang: en
+codeUrl: https://github.com/toke/toke.de
 ---
 
 For years this site was generated using Jekyll.
