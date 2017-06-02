@@ -10,11 +10,12 @@ tags:
 draft: false
 ---
 
-Just a little fun Project to check out [Processing](https://processing.org/): Langton's Ant in Processing 3.0
+Just a little fun Project to check out [Processing](https://processing.org/):
+Langton's Ant in Processing 3.0
 
 
-Langton's Ant is interesting, a very simple algorithm produces an astonishing complex structure
-but will end in stable state in later cycles.
+Langton's Ant is interesting, a very simple algorithm produces an astonishing
+complex structure but will end in stable state in later cycles.
 
 [Langton's_ant on Wikedia](https://en.wikipedia.org/wiki/Langton's_ant)
 
@@ -23,6 +24,7 @@ Langton's Ant on Numberphile
 
 
 ## Screenshots
+{{< figure src="/img/langton1.png" title="In the beginning it looks right compact" >}}
 ![Ant1](/img/langton1.png)
 
 ![Ant2](/img/langton2.png)
