@@ -1,6 +1,4 @@
-
-
-
+---
 0465026850:
   isbn: "0465026850"
   author: hofstadter
@@ -8,11 +6,11 @@
 342333052X:
   isbn: "978-3423330527"
   author: singh
-  title: "Fermats letzter Satz':'' Die abenteuerliche Geschichte eines mathematischen Rätsels"
+  title: "Fermats letzter Satz':' Die abenteuerliche Geschichte eines mathematischen Rätsels"
   pages: 368
 0596517742:
   isbn: "978-0596517748"
   author: crockford
-  title: "JavaScript':'' The Good Parts"
+  title: "JavaScript':' The Good Parts"
   pages: 178
   url: http://javascript.crockford.com/
