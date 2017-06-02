@@ -9,13 +9,13 @@ description: Wir speichern nix (fast)
 
 Diese Webseite als ganzes verwendet keine Cookies oder andere Tracking-Daten.
 Eine Speicherung der IP-Adresse erfolgt nur kurzfristig als Hilfsmittel zur
-Fehleranalyse. Eine anonymisierung findet i.R. nach ca 4h statt.
+Fehleranalyse. Eine Anonymisierung findet nach ca 4h statt.
 
 ## Externe Inhalte (Eingebettete Inhalte)
 
 In der Regel versuche ich keine externen Inhalte direkt einzubinden. Das
-Kommentarsystem wird z.B. lokal gehostet, es wird auch hier auf Datenschutz gelegt.
-Alle Angaben sind optional.
+Kommentarsystem wird z.B. lokal gehostet, es wird auch hier auf Datenschutz
+Wert gelegt. Alle Angaben sind optional.
 
 Aktuell werden folgende externe Anbieter auf manchen Seiten eingebunden:
 
@@ -30,7 +30,7 @@ Rahmen kann es zu einer abweichenden Speicherung oder Verwendung von Cookies
 kommen die im Rahmen dieses Beispiels oder Experiment Cookies setzt. Ich
 verpflichte mich die Speicherdauer dieser Daten auf ein Minimum zu beschränken
 und eventuell eingegebene Daten dieser Datenschutzerklärung entsprechend zu
-speichern und zu verarbeiten.
+speichern und zu verarbeiten. Auf den jeweiligen Seiten weise ich darauf hin.
 
 ## Werbung
 
