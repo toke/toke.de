@@ -57,6 +57,10 @@ menu:
       identifier: "impress"
       url: "/impressum/"
       weight: 100
+    - name: "Datenschutz"
+      identifier: "privacy"
+      url: "/datenschutz/"
+      weight: 120
     - name: ".onion"
       identifier: "onion"
       url: "https://ptusz6326ongoogf.onion/"
