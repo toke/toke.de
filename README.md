@@ -2,6 +2,11 @@
 
 My personal, static site, build using [Hugo](https://gohugo.io).
 
+Available under:
+
+*   [toke.de](https://toke.de/)
+*   [ptusz6326ongoogf.onion](https://ptusz6326ongoogf.onion/)
+
 ## Contact
 
 Contact: Thomas Kerpe [toke@toke.de](mailto:toke@toke.de)
