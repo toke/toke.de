@@ -30,5 +30,6 @@ You can contact me via Mail, XMPP or Signal.
 * Keybase.io: [toke](https://keybase.io/toke)
 
 This site is also available via [Tor](https://torproject.org): [ptusz6326ongoogf.onion](https://ptusz6326ongoogf.onion)
+or [v3](https://v7xc3c7ybymla4u44aw4ibxgk6qnemfa7kwj224xrtqh6fv3badwlsad.onion/)
 and ipfs: `/ipns/toke.de` or [/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF](/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF)
 (Experimental).
