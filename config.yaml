@@ -63,5 +63,9 @@ menu:
       weight: 120
     - name: ".onion"
       identifier: "onion"
-      url: "https://ptusz6326ongoogf.onion/"
+      url: "http://ptusz6326ongoogf.onion/"
       weight: 150
+    - name: ".onion (v3)"
+      identifier: "onion_v3"
+      url: "http://tokedetqcrtejvmvhe3gwax44hwhfb6hmlrbkepkr423q5j6haom6zid.onion/"
+      weight: 160
