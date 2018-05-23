@@ -29,7 +29,7 @@ You can contact me via Mail, XMPP or Signal.
 * OpenPGP Key: [B5AD 7FCB 270D A762 46D2  A8F2 B0E6 5607 ABE5 7238](9CAA5862.asc)
 * Keybase.io: [toke](https://keybase.io/toke)
 
-This site is also available via [Tor](https://torproject.org): [ptusz6326ongoogf.onion](https://ptusz6326ongoogf.onion)
-or [v3](https://v7xc3c7ybymla4u44aw4ibxgk6qnemfa7kwj224xrtqh6fv3badwlsad.onion/)
+This site is also available via [Tor](https://torproject.org): [ptusz6326ongoogf.onion](http://ptusz6326ongoogf.onion)
+or [v3](http://v7xc3c7ybymla4u44aw4ibxgk6qnemfa7kwj224xrtqh6fv3badwlsad.onion/)
 and ipfs: `/ipns/toke.de` or [/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF](/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF)
 (Experimental).
