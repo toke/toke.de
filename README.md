@@ -5,7 +5,8 @@ My personal, static site, build using [Hugo](https://gohugo.io).
 Available under:
 
 *   [toke.de](https://toke.de/)
-*   [ptusz6326ongoogf.onion](https://ptusz6326ongoogf.onion/)
+*   [ptusz6326ongoogf.onion](http://ptusz6326ongoogf.onion/)
+*   [tokedetqcrtejvmvhe3gwax44hwhfb6hmlrbkepkr423q5j6haom6zid.onion](http://tokedetqcrtejvmvhe3gwax44hwhfb6hmlrbkepkr423q5j6haom6zid.onion/)
 
 ## Contact
 
