@@ -6,7 +6,7 @@ title: Thomas 'Toke' Kerpe
 #theme: ""
 contentdir: "content"
 paginate: 5
-relativeURLs: true
+relativeURLs: false
 enableRobotsTXT: true
 metaDataFormat: yaml
 author: "Thomas Kerpe"
