@@ -61,6 +61,10 @@ menu:
       identifier: "privacy"
       url: "/datenschutz/"
       weight: 120
+    - name: "Web"
+      identifier: "web"
+      url: "https://toke.de/"
+      weight: 150
     - name: ".onion"
       identifier: "onion"
       url: "http://ptusz6326ongoogf.onion/"
