@@ -2,7 +2,7 @@
   {{ $urlPre := "https://api.github.com" }}
   {{ $gistJ := getJSON $urlPre "/users/toke/gists" }}
   {{ range first 5 $gistJ }}
-    {{ if .public }}
+    {{ if and (.public) (.description)  }}
       <li><a href="{{ .html_url }}" target="_blank">{{ .description }}</a></li>
     {{ end }}
   {{ end }}
