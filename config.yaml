@@ -64,7 +64,7 @@ menu:
     - name: "Web"
       identifier: "web"
       url: "https://toke.de/"
-      weight: 150
+      weight: 140
     - name: ".onion"
       identifier: "onion"
       url: "http://ptusz6326ongoogf.onion/"
