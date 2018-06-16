@@ -28,6 +28,7 @@ Langton's Ant on Numberphile
 ![Ant1](/img/langton1.png)
 
 ![Ant2](/img/langton2.png)
+{{< figure src="/img/langton2.png" title="But after a time it " >}}
 
 ## Code
 
