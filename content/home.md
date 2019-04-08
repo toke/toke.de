@@ -17,7 +17,7 @@ Most of my work is web, large dataset and database related. I’m a data geek.
 I also build Electronic devices, do 3D-Prints and interact with all kind of environments.
 
 I love [Python](http://www.python.org), [Perl](http://www.perl.org), [Go](http://golang.org),
-[IPFS](https://ipfs.io/), [CouchDB](http://couchdb.apache.org)
+[IPFS](https://ipfs.io/), 9p, sway, suckless software.
 and other cool technologies… and of course Coffee!
 
 ## Contact
@@ -31,5 +31,5 @@ You can contact me via Mail, XMPP or Signal.
 
 This site is also available via [Tor](https://torproject.org): [ptusz6326ongoogf.onion](http://ptusz6326ongoogf.onion)
 or [v3](http://tokedetqcrtejvmvhe3gwax44hwhfb6hmlrbkepkr423q5j6haom6zid.onion)
-and ipfs: `/ipns/toke.de` or [/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF](/ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF)
+and ipfs: `/ipns/toke.de` or [/ipns/toke.de](/ipns/toke.de)
 (Experimental).
