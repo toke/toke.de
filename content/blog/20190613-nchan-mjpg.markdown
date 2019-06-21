@@ -109,7 +109,7 @@ set -e
 image="${1:-}"
 [ $# -gt 0 ] && shift
 
-[ ! -e "$image" ] && echo "File not found" && exit 1
+[ ! -s "$image" ] && echo "File not found or empty" && exit 1
 
 (
     printf -- '%s\n' "--boundary" "Content-Type: text/jpeg"
