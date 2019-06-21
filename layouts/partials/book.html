@@ -1,8 +1,0 @@
-  <li><h4>{{ .title }}</h4>
-    <ul>
-    <li>ISBN: {{ .isbn }}</li>
-    <li>Author: {{ .author }} {{ partial "author.html" . }}</li>
-    {{ if .pages }}<li>{{ .pages }} pages</li>{{ end }}
-    {{ if .url }}<li>Web: <a href="{{ .url }}">{{ .url }}</a></li>{{ end }}
-  </ul>
-</li>
