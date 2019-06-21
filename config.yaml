@@ -1,9 +1,11 @@
+---
+
 baseURL: "/"
 disablePathToLower: true
 DefaultContentLanguage: "en"
 languageCode: en-us
 title: Thomas 'Toke' Kerpe
-#theme: ""
+theme: "cocoa-eh"
 contentdir: "content"
 paginate: 5
 relativeURLs: false
@@ -14,6 +16,12 @@ ignoreFiles:
   - ".gitkeep"
 enableGitInfo: true
 
+# Code pen
+pygmentsUseClassic: false
+pygmentsCodefences: true
+pygmentsStyle: "pygments"
+
+
 permalinks:
   post: /blog/:year/:month/:title/
 
@@ -22,8 +30,9 @@ params:
   dateform: "2. Jan 2006"
   dateformfull: "Mon 2 Jan 2006 15:04:05 MST"
   description: "Toke's Blog"
-  #copyright: "Copyleft by Thomas Kerpe"
+  # copyright: "Copyleft by Thomas Kerpe"
   logo: "img/avatar.png"
+  logofile: "img/avatar.png"
   favicon: "assets/favicon.ico"
   highlightjs: false
   progressively: false
@@ -32,7 +41,8 @@ params:
   email: "toke@toke.de"
   twitter: "brxs"
   googlePlus: ThomasKerpe
-  #social_banner: "img/banner.png"
+  # social_banner: "img/banner.png"
+  issoHost: toke.de/isso
 
 menu:
   main:
