@@ -61,7 +61,7 @@ client_max_body_size 25M;
 server {
     listen 80;
     root /srv/http/nchandemo;
-    server_nane _;
+    server_name _;
 
     location / {
         try_files $uri $uri/ =404;
