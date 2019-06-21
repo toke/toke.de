@@ -28,7 +28,7 @@ https://nchan.io
 
 ### Example MJPEG HTTP session:
 
-```
+```http
 HTTP/1.1 200 OK
 Server: Nginx/1.10.3
 Connection: close
