@@ -8,6 +8,22 @@ Available under:
 *   [ptusz6326ongoogf.onion](http://ptusz6326ongoogf.onion/)
 *   [tokedetqcrtejvmvhe3gwax44hwhfb6hmlrbkepkr423q5j6haom6zid.onion](http://tokedetqcrtejvmvhe3gwax44hwhfb6hmlrbkepkr423q5j6haom6zid.onion/)
 
+## Theme
+
+I currently use [cocoa-eh-hugo-theme](https://github.com/fuegowolf/cocoa-eh-hugo-theme) as a theme.
+
+It is included as a git subtree:
+
+```
+git subtree add --prefix themes/cocoa-eh https://github.com/fuegowolf/cocoa-eh-hugo-theme.git master --squash
+```
+
+To pull changes from upstream:
+
+```
+git subtree pull --prefix themes/cocoa-eh https://github.com/fuegowolf/cocoa-eh-hugo-theme.git master --squash
+```
+
 ## Contact
 
 Contact: Thomas Kerpe [toke@toke.de](mailto:toke@toke.de)
