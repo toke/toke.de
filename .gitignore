@@ -6,3 +6,4 @@ _site
 *.pyc
 *.lock
 /public
+/ipfs_out
