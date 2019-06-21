@@ -1,5 +1,5 @@
 DEPLOYHOST=toke.de
-DEPLOYPATH=/var/www/sites/newtoke.de
+DEPLOYPATH=/var/www/sites/toke.de
 IPFSKEY=toke.de
 ODIR=public
 
@@ -7,7 +7,7 @@ all: build upload ipfs
 
 build:
 	hugo
-	hugo  -d ipfs_out -b /ipns/QmSpkgEU65f7Ce51gpmV2jzQSuJfuGUCge8BEY3jj3SQtF/
+	hugo  -d ipfs_out -b /ipns/toke.de/
 
 $(ODIR)/*:
 	hugo
