@@ -12,6 +12,9 @@ tags:
 draft: false
 ---
 
+**Note:**
+As Ansible progressed it may be better to use ansible-vault id for his purpose.
+
 Small helper script for usage with ansible-vault and ansible-playbook together with
 [pass](https://www.passwordstore.org/) Two implementations: first in bash and another
 one in python, which should be better as the git config hack to get ini files may fail
