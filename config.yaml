@@ -30,12 +30,13 @@ params:
   dateform: "2. Jan 2006"
   dateformfull: "Mon 2 Jan 2006 15:04:05 MST"
   description: "Toke's Blog"
-  # copyright: "Copyleft by Thomas Kerpe"
+  copyright: "The content of the site is released under CC BY-SA 4.0, unless stated otherwise."
+  copyrightUrl: https://creativecommons.org/licenses/by-sa/4.0/
   logo: "img/avatar.png"
   logofile: "img/avatar.png"
   favicon: "assets/favicon.ico"
   highlightjs: false
-  progressively: false
+  progressively: true
   latestpostcount: 5
   github: "toke"
   email: "toke@toke.de"
