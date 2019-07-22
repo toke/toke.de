@@ -1,0 +1,9 @@
+image: alpine/edge
+packages:
+  - hugo
+sources:
+  - https://git.sr.ht/~toke/toke.de
+tasks:
+    - build: |
+        cd toke.de
+        hugo
