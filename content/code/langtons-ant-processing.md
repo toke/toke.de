@@ -33,6 +33,7 @@ Langton's Ant on Numberphile
 ### Round 11564
 
 {{< figure src="/img/langton2.png" title="But after a time it turns in a stable state." >}}
+![Ant2](/img/langton2.png)
 
 ## Code
 
