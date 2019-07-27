@@ -37,11 +37,13 @@ params:
   favicon: "assets/favicon.ico"
   highlightjs: false
   progressively: true
+  noreadingtime: false
+  #large_banner_logo: true
   latestpostcount: 5
   github: "toke"
   email: "toke@toke.de"
   twitter: "brxs"
-  googlePlus: ThomasKerpe
+  keybase: "toke"
   # social_banner: "img/banner.png"
   issoHost: toke.de/isso
 
