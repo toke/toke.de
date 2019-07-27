@@ -36,6 +36,7 @@ linkedin = "john-example-aa80ue8è"
 twitter = "example"
 facebook = "facebook_id"
 instagram = "instagram_id"
+untappd = "untappd_id"
 itch_io = "itch_io_id"
 social_banner = "img/banner.png"
 usesmallsummarycard = true
@@ -43,6 +44,11 @@ posts_navigation = true
 # issoHost = "comments.domain.tld:1234"
 # githubRepo = "githubUsername/repositoryName/tree/master"
 small_banner_logo = false
+
+[params.utteranc]
+enable = true
+repo = "mtn/cocoa-eh-hugo-theme"
+issueTerm = "title"
 
 [params.colors]
 identifier = "#527fc1f"
