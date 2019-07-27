@@ -27,13 +27,13 @@ Langton's Ant on Numberphile
 
 ### Round 672
 
-![Ant1](/img/langton1.png)
+![Ant1](resources/langton1.png)
 
 In The beginning it looks right compact and random.
 
 ### Round 11564
 
-![Ant2](/img/langton2.png)
+![Ant2](resources/langton2.png)
 
 But after a while it turns into a stable state.
 
