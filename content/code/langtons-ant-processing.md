@@ -24,6 +24,7 @@ Langton's Ant on Numberphile
 
 
 ## Screenshots
+
 {{< figure src="/img/langton1.png" title="In the beginning it looks right compact and random" >}}
 ![Ant1](/img/langton1.png)
 
