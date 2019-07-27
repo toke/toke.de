@@ -14,8 +14,8 @@ Just a little fun Project to check out [Processing](https://processing.org/):
 Langton's Ant in Processing 3.0
 
 
-Langton's Ant is interesting, a very simple algorithm produces an astonishing
-complex structure but will end in stable state in later cycles.
+Langton's Ant is interesting, very simple algorithm produces an astonishing
+complex, random looking structure but may end in stable state in later cycles.
 
 [Langton's_ant on Wikedia](https://en.wikipedia.org/wiki/Langton's_ant)
 
@@ -24,11 +24,10 @@ Langton's Ant on Numberphile
 
 
 ## Screenshots
-{{< figure src="/img/langton1.png" title="In the beginning it looks right compact" >}}
+{{< figure src="/img/langton1.png" title="In the beginning it looks right compact and random" >}}
 ![Ant1](/img/langton1.png)
 
-![Ant2](/img/langton2.png)
-{{< figure src="/img/langton2.png" title="But after a time it gets complex" >}}
+{{< figure src="/img/langton2.png" title="But after a time it turns in a stable state." >}}
 
 ## Code
 
