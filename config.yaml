@@ -52,7 +52,7 @@ params:
   twitter: "brxs"
   keybase: "toke"
   # social_banner: "img/banner.png"
-  issoHost: toke.de/isso
+  issoHost: toke.de/isso/toke.de
 
 menu:
   main:
