@@ -5,6 +5,9 @@ lang: de
 license: ['CC BY-NC-SA 2.0', 'http://creativecommons.org/licenses/by-nc-sa/2.0/de/']
 date: "2004-04-20T14:28:41+02:00"
 url: /artikel/grundlagen/was-passiert-beim-surfen/
+tags:
+- article
+- german
 ---
 
 ## Grundlagen: Was passiert beim "surfen"?

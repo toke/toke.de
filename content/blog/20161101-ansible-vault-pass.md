@@ -10,6 +10,9 @@ tags:
   - "gist"
   - "python"
 draft: false
+slug: ansible-vault-pass
+aliases:
+  - /code/ansible-vault-pass/
 ---
 
 **Note:**

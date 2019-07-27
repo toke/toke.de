@@ -7,6 +7,7 @@ url: /artikel/linux/debian-kernel-bauen/
 tags:
   - article
   - old
+  - obsolete
   - linux
   - kernel
   - debian

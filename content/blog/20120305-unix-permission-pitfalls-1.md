@@ -6,8 +6,10 @@ tags:
 - linux
 - permission
 title: 'Unix permission pitfalls #1'
-url: /blog/2012/03/unix-permission-pitfalls-1/
-alias: /blog/2012/03/05/unix-permission-pitfalls-1/
+slug: unix-permission-pitfalls-1
+aliases:
+- /blog/2012/03/05/unix-permission-pitfalls-1/
+- /blog/2012/03/unix-permission-pitfalls-1/
 ---
 
 Let's do an experiment:
@@ -21,7 +23,7 @@ Let's do an experiment:
     4 drwxr-xr-x  2 root   root   4096 2012-03-05 10:03 .
     4 drwxr-xr-x 10 user   user   4096 2012-03-05 10:03 ..
 
-Ok, that's clear we created an empty directory and changed the 
+Ok, that's clear we created an empty directory and changed the
 ownership to root. Now to something destructive:
 
     $ rm -rf abc

@@ -6,8 +6,11 @@ tags:
 - perl
 - tipp
 title: Perls boolean context
-url: /blog/2012/11/perl-boolean/
-alias: ["/blog/2012/11/02/perl-boolean/","/blog/perl/2012/11/02/perl-boolean/"]
+slug: perl-boolean
+aliases:
+- /blog/2012/11/02/perl-boolean/
+- /blog/perl/2012/11/02/perl-boolean/
+- /blog/2012/11/perl-boolean/
 ---
 
 

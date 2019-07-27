@@ -6,9 +6,13 @@ tags:
 - perl
 - operator
 - tipp
+- pitfall
 title: Perl Operator pitfalls
-url: /blog/2012/10/perl-op-pitfall/
-alias: ["/blog/2012/10/29/perl-op-pitfall/", "/blog/perl/2012/10/29/perl-op-pitfall/"]
+slug: perl-operator-pitfalls
+aliases:
+- /blog/2012/10/29/perl-op-pitfall/
+- /blog/perl/2012/10/29/perl-op-pitfall/
+- /blog/2012/10/perl-op-pitfall/
 ---
 
 Be sure to get familar with the difference between || and // in perl code.

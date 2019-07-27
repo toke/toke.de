@@ -6,8 +6,10 @@ tags:
 - scm
 - tipp
 title: Cleaning up svn history in git
-url: /blog/2012/06/git-svn-cleanup/
-alias: /blog/2012/06/08/git-svn-cleanup/
+slug: git-svn-cleanup
+aliases:
+- /blog/2012/06/08/git-svn-cleanup/
+- /blog/2012/06/git-svn-cleanup/
 ---
 
 I was importing svn repositories into git. Once in the past

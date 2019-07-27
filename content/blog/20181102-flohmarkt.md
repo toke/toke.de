@@ -8,6 +8,9 @@ tags:
 title: Kommisionsflohmarkt
 lang: de
 codeUrl: https://github.com/toke/toke.de
+slug: kommisionsflohmarkt-odt-formular
+aliases:
+- /blog/2018-11-02-flohmarkt/
 ---
 
 Sehr einfache Abrechnungstabelle für kleine Kommisionsflohmärkte (Abgabeflohmärkte) LibreOffice / OpenOffice (ODT).

@@ -8,6 +8,7 @@ tags:
   - "fun"
   - "gist"
 draft: false
+aliases: /code/langtons-ant-processing/
 ---
 
 Just a little fun Project to check out [Processing](https://processing.org/):

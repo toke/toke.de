@@ -7,8 +7,10 @@ tags:
 - linux
 - tipps
 title: Git Branch in bash prompt
-url: /blog/2012/03/git-branch-prompt/
-alias: /blog/2012/03/27/git-branch-prompt/
+slug: git-branch-prompt
+aliases:
+- /blog/2012/03/27/git-branch-prompt/
+- /blog/2012/03/git-branch-prompt/
 ---
 
 My Bash prompt is something like this `archimedes:toke.de(master) toke$`.

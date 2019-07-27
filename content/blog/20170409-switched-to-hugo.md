@@ -9,6 +9,9 @@ tags:
 title: Switched to Hugo
 lang: en
 codeUrl: https://github.com/toke/toke.de
+slug: switched-to-hugo
+aliases:
+- /blog/2017-04-09-switched-to-hugo/
 ---
 
 For years this site was generated using Jekyll.
@@ -23,7 +26,7 @@ So here we go. toke.de is now generated using hugo.
 
 ## Other changes
 
-I've wrote <a href="{{<relref "blog/2012-02-09-how-i-post.markdown">}}">in the past</a>
+I've wrote <a href="{{<relref "blog/20120209-how-i-post.md">}}">in the past</a>
 on how the site was generated using github webhooks.
 For some time I used [adnanh/webhook](https://github.com/adnanh/webhook)
 to accept the webhooks with success, so I only had to modify
