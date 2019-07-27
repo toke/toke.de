@@ -25,8 +25,12 @@ Langton's Ant on Numberphile
 
 ## Screenshots
 
+### Round 672
+
 {{< figure src="/img/langton1.png" title="In the beginning it looks right compact and random" >}}
 ![Ant1](/img/langton1.png)
+
+### Round 11564
 
 {{< figure src="/img/langton2.png" title="But after a time it turns in a stable state." >}}
 
