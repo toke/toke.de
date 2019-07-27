@@ -1,0 +1,17 @@
+
+.header .container {
+    border-bottom: solid black 1px;
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.header .container a, .container img {
+
+    padding: 0px!important;
+    margin: 0px!important;
+    vertical-align: bottom;
+}
+
+.header .content {
+    margin-bottom: 0px;
+}

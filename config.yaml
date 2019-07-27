@@ -35,9 +35,16 @@ params:
   logo: "img/avatar.png"
   logofile: "img/avatar.png"
   favicon: "assets/favicon.ico"
+  extracssfiles:
+    - css/toke.css
   highlightjs: false
   progressively: true
   noreadingtime: false
+  blogs:
+    - blog
+    - code
+    - note
+    - article
   #large_banner_logo: true
   latestpostcount: 5
   github: "toke"

@@ -14,7 +14,7 @@ Nutzungsbedingungen
 ===================
 
 Ich weise ausdrücklich darauf hin, dass sämtliche Adressen und Telefonnummern
-ausschliesslich zur persönlichen Kommunikation genutzt werden dürfen.
+ausschließlich zur persönlichen Kommunikation genutzt werden dürfen.
 Verschicken von Werbemails/Briefen (spam/UCE) oder automatischen E-Mails an
 diese Adressen ist nicht gestattet! Ein Großteil der Inhalte steht unter
 einer Creative Commons Lizenz. Die jeweilige Lizenz ist auf der
