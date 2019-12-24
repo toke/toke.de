@@ -17,7 +17,7 @@ Most of my work is web, large dataset and database related. I’m a data geek.
 I also build Electronic devices, do 3D-Prints and interact with all kind of environments.
 
 I love [Python](http://www.python.org), [Perl](http://www.perl.org), [Go](http://golang.org),
-[IPFS](https://ipfs.io/), 9p, sway, suckless software.
+[IPFS](https://ipfs.io/), 9p, [sway](https://swaywm.org/), suckless software.
 and other cool technologies… and of course Coffee!
 
 ## Contact

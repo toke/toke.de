@@ -1,11 +1,9 @@
 ---
 url: /datenschutz/
-title: Datenschutzerkläung
+title: Datenschutzerklärung
 language: de
-description: Wir speichern nix (fast)
+description: Ich speicher nix (fast)
 ---
-
-# Datenschutzerklärung
 
 Diese Webseite als ganzes verwendet keine Cookies oder andere Tracking-Daten.
 Eine Speicherung der IP-Adresse erfolgt nur kurzfristig als Hilfsmittel zur
